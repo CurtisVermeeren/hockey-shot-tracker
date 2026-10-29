@@ -1,8 +1,6 @@
 {
-	"name": "Node VSCode Dev Container",
-	"dockerComposeFile": [
-		"../docker-compose.yml"
-	],
+	"name": "Hockey Shot Tracker",
+	"dockerComposeFile": ["../docker-compose.yml"],
 	"service": "node-app",
 	"workspaceFolder": "/app",
 	"customizations": {
@@ -16,7 +14,10 @@
 				}
 			},
 			"extensions": [
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"svelte.svelte-vscode",
+				"esbenp.prettier-vscode",
+				"bradlc.vscode-tailwindcss"
 			]
 		}
 	}
